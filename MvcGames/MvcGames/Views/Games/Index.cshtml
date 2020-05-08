@@ -1,4 +1,4 @@
-﻿@model IEnumerable<MvcGames.Models.LocationGamesView>
+﻿@model MvcGames.Models.LocationGamesView
 
 @{
     ViewData["Title"] = "Index";
@@ -10,7 +10,18 @@
     <a asp-action="Create">Create New</a>
 </p>
 
-
+<form asp-controller="Game" asp-action="Index">
+    <p>
+        <select asp-for="LocationCity" asp-items="Model.Locations">
+            <option value="">ALL</option>
+        </select>
+        <select asp-for="GameGenre" asp-items="Model.Genre">
+            <option value="">ALL</option>
+        </select>
+        Title:<input type="text" name="id"/>
+            <input type="submit" value="Filter" />
+    </p>
+</form>
 
 <table class="table">
     <thead>
@@ -34,10 +45,10 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.Game) {
+@foreach (var item in Model.Games) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.City)
+                @Html.DisplayFor(modelItem => item.locationID)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Title)

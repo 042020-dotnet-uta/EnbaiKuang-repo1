@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -20,9 +21,26 @@ namespace MvcGames.Controllers
         }
 
         // GET: Games
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string city, string genre, string searchString)
         {
-            return View(await _context.Game.ToListAsync());
+
+            //dynamic model = new ExpandoObject();
+            //model.Game = GetGame();
+            //model.Location = GetLocation();
+            //return View(model);
+            Queries getQuery = new Queries(_context);
+            var genreQuery = getQuery.getGenre();
+            var locationQuery = getQuery.getCity();
+            var gameTitle = getQuery.getGameName(searchString,genre,city);
+
+            var locationGamesView = new LocationGamesView
+            {
+                Genre = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                Locations = new SelectList(await locationQuery.ToListAsync()),
+                Games = await gameTitle.ToListAsync()
+            };
+
+            return View(locationGamesView);
         }
 
         // GET: Games/Details/5
