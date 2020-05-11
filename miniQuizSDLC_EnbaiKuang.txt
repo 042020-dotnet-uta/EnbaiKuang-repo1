@@ -1,0 +1,40 @@
+1)Which of the following would not be considered a trait of the waterfall model.
+	a.Redesign and changing requirements is impractical and have high costs.
+	b.An altered version with overlapping phases named Sashimi exists.
+	c.The waterfall model is mainly used by projects that wants to maintian low overhead and documentation.
+	d.The waterfall model is structured and linear, ensuring each phase is completed before moving on to the next.
+
+2)Which of the following is not a part of the verification phase of the V-Model.(select all that apply)
+	a.Requirements anylysis
+	b.Unit testing
+	c.Architecture design
+	d.System testing
+
+3)What are the principles of the agile scrum model.
+	a.The team must be transparent and aware of whats occuring with other members.
+	b.Frequently inspection points that allows team to reflect on how process is working.
+	c.Constantly investigating how things are going and revises items that does not make sense.
+	d.Daily scrum meetings to coordinate activitis for the following day.
+
+4)Which of the following is correct about the Kanban model.
+	a.The kanban board is reset at the beginning off each iteration.
+	b.There are no limits to how many tasks that can be on each column of the kanban board.
+	c.When there is an activity that is blocking the work flow, everyone will clear their current work-in-progress to help with the blocking activity.
+	d.Indivudual tasks can be anything from small helper methods to full features requiring the entire sprint to complete.
+
+5)Which of the follow is not a part of the Level 3 Defined Maturity level.
+	a.Quantitative Project Management
+	b.Product Integration
+	c.Technical Solution
+	d.Verification
+
+
+
+
+
+
+1.c
+2.b,d
+3.a,b,c
+4.c
+5.a

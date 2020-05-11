@@ -1,0 +1,40 @@
+1. In the Asp.Net core MVC, what type of file are the views.
+	a).json
+	b).cs
+	c).cshtml
+	d).css
+
+2.What is the minimal version of Asp.Net core that Partial Tag Helper requires
+	a)Asp.Net 3.1
+	b)Asp.Net 3.0
+	c)Asp.Net 2.2
+	d)Asp.Net 2.1
+
+3.Which of these properties apply to the first-line pseudo-element.(choose all that apply)
+	a)Font Properties
+	b)Vetrical-align
+	c)Text-spacing
+	d)Letter-transformation
+
+
+4.Which of the following helps control the scope of the tag helper.
+	a)@TagHelper
+	b)@addTagHelper
+	c)@RemoveTag
+	d)@addTag
+
+
+5.Which of the following is not a source of data for model binding.
+	a)Route fields
+	b)Form fields
+	c)Query String parameters
+	d)Uploaded files
+
+
+
+
+1.c
+2.d
+3.a,b
+4.b
+5.a
