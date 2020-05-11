@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Dynamic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcGames.Data;
 using MvcGames.Models;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace MvcGames.Controllers
 {
@@ -31,7 +29,7 @@ namespace MvcGames.Controllers
             Queries getQuery = new Queries(_context);
             var genreQuery = getQuery.getGenre();
             var locationQuery = getQuery.getCity();
-            var gameTitle = getQuery.getGameName(searchString,genre,city);
+            var gameTitle = getQuery.getGameName(searchString, genre, city);
 
             var locationGamesView = new LocationGamesView
             {
