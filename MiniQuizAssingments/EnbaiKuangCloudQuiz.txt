@@ -1,0 +1,36 @@
+1)Which of the following is considered Auto Scaling.
+	a.Adding more instances to a service
+	b.Running the service in a different geographical location
+	c.Scaling is performed according to increased necessity
+	d.Adding an instance for a different purpose
+
+2)What is the definition of PaaS
+	a.Cloud computing service that supply an on-demand environment for developing, testing, and managing software.
+	b.Method for delivering software over the internet.
+	c.Renting IT infrastructure such as servers and virtural machines.
+	d.Supplying on-demand environment while focusing on building app functionality without continually managing the servers and infrastructure.
+
+3)Which is not a commond reasons companies are shifting toward cloud computing.
+	a.Eliminates the capital expense of bying hardware and software.
+	b.Data backup,disaster recovery, and business continuity is easier and less expensive.
+	c.
+	d.Ability to scale elastically and just the right amount of IT resources.
+
+4)Which of the following services is not provided by IaaS
+	a.Servers and Storage
+	b.Networking firewalls/security
+	c.Data center physical plane/building
+	d.Hosted applications
+
+5)Which of the following is not an advantage of SaaS
+	a.Use free client software
+	b.Mobilize your workforce easily
+	c.Increase stability, reliability, and supportability
+	d.Pay only for what you use
+
+
+1. b
+2. a
+3. c
+4. d
+5.
