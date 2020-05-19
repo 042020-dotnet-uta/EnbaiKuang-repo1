@@ -1,0 +1,37 @@
+1)Which of the following is not a characteric of SOA.
+	a.Handeling business processes and technical tasks.
+	b.Provides business data and technical details to construct a graphical interface.
+	c.Accessing another service and respond to different requesters.
+	d.Dependent on other software so changes to internal logic of service requires changes to requester.
+
+2)What are some types of applications that can be migrated using SOA.
+	a.Modular application where each feature is mainly independent and does not affect app as a whole when removed.
+	b.Monolithic applications that has high dependcy where changes in one section requires adjustments in others.
+	c.Application where logic is monolith and repeatedly patched as requirements changed.
+	d.Applications with duplicate logic and requires change in multiple locations when changing one section.
+
+3)What are the four primary design patterns for web services.
+	a.Controller,View,Model,Adapter
+	b.Adapter,Controller,Proxy,Server
+	c.Adapter,Proxy,Facade,Controller
+	d.Controler,Proxy,View,Facade
+
+4)Which of the following the rolls SOA building blocks can play.
+	a.Service Provider, Service requester, Service broker
+	b.Service requestor,Service registry,Service repository
+	c.Service requestor,Service provider, service consumer
+	d.Service requester, Service consumer, Service management
+
+5)Which of the following the a definition of service abstraction.
+	a.Service acts as black box and inner logic is hidden from consumers.
+	b.Service is independent and control their function from a design time and run time perspective.
+	c.Service can be used to compose other services
+	d.Service have adequate size and scope according to client needs.
+
+
+
+1)d
+2)b,c,d
+3)c
+4)d
+5)a
